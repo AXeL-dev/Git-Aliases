@@ -49,3 +49,6 @@ undo = reset HEAD~1
 
 # change last commit message
 recommit = commit --amend
+
+# basically 'refresh' your local repo and unstage ignored files
+refresh = rm --cached -r .
